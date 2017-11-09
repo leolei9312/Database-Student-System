@@ -45,7 +45,7 @@ int main (int argc, const char * argv[])
    
     
     //open connection
-    mysql_real_connect(conn, "localhost", "root", "leo27753!", "project3-nudb", 0, NULL, CLIENT_MULTI_RESULTS);
+    mysql_real_connect(conn, "localhost", "root", "", "project3-nudb", 0, NULL, CLIENT_MULTI_RESULTS);
     
     //frame to login first then navigate through the menu options
     while(true)
